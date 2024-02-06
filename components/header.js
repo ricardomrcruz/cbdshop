@@ -30,7 +30,7 @@ function Header({ pages = [] }) {
               href={`/`}
               className="text-black text-4xl hover:text-slategray hover:bg-gainsboro rounded-full pr-[40px] font-medium"
             >
-              La Ferme <br />
+              Le Jardin <br />
               De La Sorciere
             </Link>
 
