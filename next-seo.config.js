@@ -5,7 +5,7 @@ const url = 'https://commerce.ccbdshop.com'
 
 const seo = {
   title,
-  titleTemplate: 'iWEED',
+  titleTemplate: 'Le Jardin De La Sorciere',
   description,
   openGraph: {
     description,
