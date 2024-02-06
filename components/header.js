@@ -6,6 +6,7 @@ import { formatCurrencyValue } from '@/utils/format-currency-value'
 import { HygraphSVG } from '@/svgs'
 import { ShoppingCartIcon } from '@/icons'
 import { useSettingsContext } from '@/context/settings'
+import CarouselComp from '@/components/ui/CarouselComp';
 // import { thumb1 } from '@/public/thumb1.jpg'
 
 function Header({ pages = [] }) {
@@ -17,6 +18,7 @@ function Header({ pages = [] }) {
       <header className="max-w-7xl mx-auto  flex-grow flex items-center justify-between px-4 sm:px-6">
         <div className="py-6 w-full">
           <nav className="flex items-center justify-between flex-wrap space-x-4">
+         
             <Link href="/">
               <Image
                 src="/media/logo.png"
@@ -69,14 +71,15 @@ function Header({ pages = [] }) {
         </div>
       </header>
       <div className="relative w-full h-[60vh] overflow-hidden">
-        <Image
+      <CarouselComp />
+        {/* <Image
           src="/media/banner3.jpg"
           fill
           alt="title"
           title="title"
           className="object-cover"
-        />
-        <h1 className="text-black text-3xl z-10">ddfdfdfd</h1>
+        /> */}
+        
       </div>
     </div>
   )
