@@ -21,7 +21,7 @@ function Header({ pages = [] }) {
          
             <Link href="/">
               <Image
-                src="/media/women.png"
+                src="/media/logowomen.png"
                 width="150"
                 height="150"
                 alt="title"
@@ -30,7 +30,7 @@ function Header({ pages = [] }) {
             </Link>
             <Link
               href={`/`}
-              className="text-black text-4xl hover:text-slategray hover:bg-gainsboro rounded-full pt-5 pl-3 pr-[40px] font-medium"
+              className="text-black text-4xl hover:text-slategray hover:bg-gainsboro rounded-full pt-5  pr-[40px] font-medium"
             >
               Le Jardin <br />
               De La Sorciere

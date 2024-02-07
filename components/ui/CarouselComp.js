@@ -7,12 +7,12 @@ export default function CarouselComp(){
 
     return (
         <div className="max-w-7xl mx-auto ">
-            <Carousel showArrows={true} autoPlay={true} interval={3000} infiniteLoop={true} showThumbs={false}>
+            <Carousel showArrows={true} autoPlay={true} interval={7000} infiniteLoop={true} showThumbs={false}>
                 <div>
                     <img  src="/media/carousel1.jpg" alt="" />
                 </div>
                 <div>
-                    <img  src="/media/carousel1.jpg" alt="" />
+                    <img  src="/media/carousel2.jpg" alt="" />
                 </div>
                 <div>
                     <img  src="/media/carousel1.jpg" alt="" />
