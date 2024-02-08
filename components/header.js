@@ -30,7 +30,7 @@ function Header({ pages = [] }) {
             </Link>
             <Link
               href={`/`}
-              className="text-black text-4xl hover:text-slategray hover:bg-gainsboro rounded-full pt-5  pr-[40px] font-medium"
+              className="text-black text-4xl hover:text-slategray hover:bg-gainsboro rounded-full pt-5  pr-[40px] font-medium font-playfair italic"
             >
               Le Jardin <br />
               De La Sorciere
@@ -70,7 +70,7 @@ function Header({ pages = [] }) {
           </nav>
         </div>
       </header>
-      <div className="relative w-full h-[60vh] overflow-hidden">
+      <div className="relative w-full h-[60vh] overflow-hidden mt-5">
       <CarouselComp />
         {/* <Image
           src="/media/banner3.jpg"

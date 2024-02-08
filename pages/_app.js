@@ -1,5 +1,6 @@
 import { CartProvider } from 'react-use-cart'
 import Image from 'next/image'
+import 'styles/globals.css'
 
 import 'tailwindcss/tailwind.css'
 
