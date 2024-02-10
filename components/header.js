@@ -12,7 +12,7 @@ import CarouselComp from '@/components/ui/CarouselComp';
 function Header({ pages = [] }) {
   const { cartTotal } = useCart()
   const { activeCurrency } = useSettingsContext()
-
+ console.log(pages);
   return (
     <div className="">
       <header className="max-w-7xl mx-auto  flex-grow flex items-center justify-between px-4 sm:px-6">
@@ -70,17 +70,17 @@ function Header({ pages = [] }) {
           </nav>
         </div>
       </header>
-      <div className="relative w-full h-[60vh] overflow-hidden mt-5">
+      {/* <div className="relative w-full h-[60vh] overflow-hidden mt-5">
       <CarouselComp />
-        {/* <Image
+         <Image
           src="/media/banner3.jpg"
           fill
           alt="title"
           title="title"
           className="object-cover"
-        /> */}
+        /> 
         
-      </div>
+      </div> */}
     </div>
   )
 }

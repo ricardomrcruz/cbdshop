@@ -1,9 +1,14 @@
 import getAllProducts from '@/lib/get-all-products'
 import getPageData from '@/lib/get-page-data'
 import ProductGrid from '@/components/product-grid'
+import CarouselComp from '@/components/ui/CarouselComp';
 
 function IndexPage({ products }) {
-  return <ProductGrid products={products} />
+  return (
+    <>
+    <CarouselComp />
+  <ProductGrid products={products} /> 
+  </>)
 }
 
 
