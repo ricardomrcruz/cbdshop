@@ -5,7 +5,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 export default function CarouselComp() {
   return (
-    <div className="max-w-7xl mx-auto ">
+    <div className="max-w-7xl mx-auto mt-2 mb-10">
       <Carousel
         showArrows={true}
         autoPlay={true}
