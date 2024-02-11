@@ -13,6 +13,8 @@ function Header({ pages = [] }) {
   const { cartTotal } = useCart()
   const { activeCurrency } = useSettingsContext()
  console.log(pages);
+
+ 
   return (
     <div className="">
       <header className="max-w-7xl mx-auto  flex-grow flex items-center justify-between px-4 sm:px-6">
@@ -33,7 +35,8 @@ function Header({ pages = [] }) {
               className="text-black text-4xl hover:text-slategray hover:bg-gainsboro rounded-full pt-5  pr-[40px] font-medium font-playfair italic"
             >
               Le Jardin <br />
-              De La Sorciere
+              De La Sorciere <br />
+              <span className='text-sm font-playfair not-italic '>Boutique CBD SHOP</span>
             </Link>
 
             {pages.length ? (
